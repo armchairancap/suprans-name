@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SupraNS.name - pre-purchase or buy SupraNS names</title>
+    <link rel="stylesheet" href="./bulma.min.css">  
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <style>
+        :root {
+          --background-color: #121212;
+          --text-color: #ffffff;
+          --table-header-bg: #1f1f1f;
+          --table-row-bg: #2c2c2c;
+          --table-row-hover-bg: #3a3a3a;
+        } 
+
+        body {
+          background-color: var(--background-color);
+          color: var(--text-color);
+        }
+  
+        table.dataTable {
+          background-color: var(--table-row-bg);
+          color: var(--text-color);
+        }
+  
+        table.dataTable thead {
+          background-color: var(--table-header-bg);
+        }
+  
+        table.dataTable tbody tr {
+          background-color: var(--table-row-bg);
+        }
+  
+        table.dataTable tbody tr:hover {
+          background-color: var(--table-row-hover-bg);
+        }
+  
+        table.dataTable th,
+        table.dataTable td {
+          border-color: #444;
+        }
+      </style>
+</head>
+
+  <body>
+    <!-- Navigation bar https://bulma.io/documentation/components/navbar/ -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="logo.webp" alt="SupraNS.name">
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#wtf-is-supraNS-name">About</a>
+                <a class="navbar-item" href="#buy">Buy</a>
+                <a class="navbar-item" href="#names"><strong>Names</strong></a>
+                <a class="navbar-item" href="#notes">Notes</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+    <div class="container">
+
+    <div class="block">
+    <h2 class="title" id="wtf-is-supraNS-name">About SupraNS.name</h2>
+    </div>
+
+    <div class="block">
+    SupraNS.name is a site with a list of SupraNS names that are available for purchase.
+    </div>
+    <div class="block">
+    The list is maintained by the owner of the names and is updated regularly. The names are listed with their price, category, and other relevant information.
+    </div>
+    
+    <div class="block">    
+    <h4 class="title" id="wtf-is-supraNS">WTF is SupraNS?</h4>
+    </div>
+
+    <div class="block">
+    It's the official namespace of the Supra network and entries registered in it are used to identify resources on the Supra network. 
+        You may access it <a href="https://suprans.id" target="_blank">here</a>. Note that as of this moment you cannot browse entries, but you can search and view entries you do find.
+    </div>
+    
+    <div class="block">
+    SupraNS use cases are similar to Ethereum's ENS or Solana's Solana NS.
+    </div>
+    <div class="content">
+    <ul>
+        <li>Primary function of SupraNS records is to identify Supra wallet addresses so that you can receive tokens or NFTs at <code>toshua.supra</code> instead of texting the sender and asking them to use <code>0xf0d0d7b6bdb66ca463269d0cd8e9abd6bc0c4d869f2a971769b3b81ca614d71c</code>.</li>
+        <li>SupraNS names will also be used to identify other resources on the Supra network, on-chain reputation and more</li>
+    </ul>
+    
+    <div class="block">
+    The documentation with additional use cases can be found <a href="https://docs.suprans.id/" target="_blank">here</a>.</div>
+
+    <button class="button" id="totop"><a href="#top">Back to top</a></button>   
+
+    <div class="block">
+    <h2 class="title" id="buy">How to buy</h2>
+    </div>
+        
+    <div class="block">You <b>can register new names</b> and you can can <b>pre-pay</b> for one of these and have the ownership of one of these transferred to your wallet later.</div>
+
+    <div class="block">As of now (February 2025) there's no way to transfer ownership of a SupraNS registration from a StarKey wallet to another.
+        When that and a marketplace become available, these names will be listed at prices I intend to sell them for.</div>
+    <div class="block">If you'd like to pay now and get the name when transfers becomes possible, reach out and escrow can be arranged. Here's how:</div>
+    
+    <div class="content">
+    <ul>
+        <li>Agree on price (payable in <code>$DEXUSDC</code>) </li>
+        <li>Designate a mutually trusted community member from <code>#price-discussion</code> on Supra Discord to provide escrow service and release funds upon transfer of the name</li>
+        <li>When the the Supra or Dexlyn API or CLI or StarKey wallet can transfer SupraNS record ownership, the name will be transferred to the address from which you paid (unless indicated otherwise)</li>
+        <li>With an <i>on-chain</i> proof of transfer from SupraScan.io, your funds are claimed from the escrow person</li>
+    </ul>
+    </div>
+
+    <div class="block">
+    You can swap Supra for dexUSDC <a href="https://app.dexlyn.com/">here</a>. 
+    </div>
+    <div class="block danger">Do NOT send funds from a CEX wallet! Send them from StarKey address you control because that's the address your name will be transferred to.</div>
+    
+    <div class="block">Why pre-pay?</div>
+    <div class="content">
+    <ul>
+        <li>It's a way to reserve your name before a marketplace becomes available</li>
+        <li>It's a way to get a better price</li>
+    </ul>
+    </div>
+
+    <button class="button" id="totop"><a href="#top">Back to top</a></button>
+
+    <div class="block">
+    <h2 class="title" id="notes">Notes</h2></div>
+    
+    <div class="block">This is most of what's currently available. In some special cases names will be made available to communities or other entities that should use them. Please take note of the following:</div>
+    
+    <div class="block">
+    These prices are just for reference purposes and almost every entry will be either adjusted (for fixed price sale) or sold through a bidding process (no fixed price).
+    </div>
+    <div class="block">
+    Categories and notes:</div>
+    <div class="content">
+    <ul>
+        <li>AI - names that are suitable for AI</li>
+        <li>Gaming - names that are suitable for gaming</li>
+        <li>Meme - names that are suitable for memes</li>
+        <li>Business - names that are suitable for on-chain businesses (including freelancers)</li>
+        <li>Institutional - names that are suitable for institutions</li>
+        <li>Adult - names that are not suitable for children. (TRUE Adult means the name may not be explicit, but it's likely that it would be used for its implicit meaning)</li>
+        <li>Digits - names that are made of digits</li>
+        <li>Geo - names that are suitable for geo / location use</li>
+        <li>Fancy - general purpose names, basically "anything else"</li>
+        <li>Special - these will not be sold to random people (and, if you don't see any in the table at the bottom, that means they haven't even been listed)</li>
+    </ul>
+    </div>
+    
+    <button class="button" id="totop"><a href="#top">Back to top</a></button>
+    
+    <div class="block">
+    <h2 class="title" id="names">Names</h2>
+    </div>
+    
+    <div class="block">
+    As mentioned above, they will be available for purchase in a future marketplace and for now only pre-payments are accepted.
+    </div>
+    <!-- Table -->
+    <!-- data-url="https://raw.githubusercontent.com/armchairancap/suprans-name/refs/heads/master/table.json" name,price,category,notes,adult,corp,length,special -->  
+    
+    <div class="block">
+    <table id="namesTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Notes</th>
+                <th>Adult</th>
+                <th>Length</th> 
+                <th>Special</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be inserted here by JavaScript -->
+        </tbody>    
+    </table>
+    </div>
+
+    <button class="button" id="totop"><a href="#top">Back to top</a></button>
+    
+    </div>
+    </section>
+  
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>SupraNS</strong><small>.name</small> by <a href="https://armchairancap.github.io">ArmchairAncap</a>.
+            The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0//">CC BY NC SA 4.0</a>.</p>
+        </div>
+      </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        fetch('./table.json')
+          .then(response => response.json())
+          .then(data => {
+            const tableBody = document.querySelector('#namesTable tbody');
+            data.forEach(item => {
+              const row = document.createElement('tr');
+              row.innerHTML = `
+                <td>${item.name}</td>
+                <td>${item.price}</td>
+                <td>${item.category}</td>
+                <td>${item.notes}</td>
+                <td>${item.adult}</td>
+                <td>${item.length}</td>
+                <td>${item.special}</td>
+              `;
+              tableBody.appendChild(row);
+            });
+            // Initialize DataTables
+            $('#namesTable').DataTable();
+          })
+          .catch(error => console.error('Error loading JSON data:', error));
+      });
+    </script> 
+    </body>
+</html>
