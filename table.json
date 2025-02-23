@@ -950,6 +950,16 @@
         "special": ""
     },
     {
+        "name": "aurora.supra",
+        "price": "$2",
+        "category": "name",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "6",
+        "special": ""
+    },
+    {
         "name": "aussie.supra",
         "price": "$3",
         "category": "fancy",
@@ -3920,19 +3930,9 @@
         "special": ""
     },
     {
-        "name": "gurora.supra",
-        "price": "$2",
-        "category": "",
-        "notes": "",
-        "adult": "FALSE",
-        "corp": "",
-        "length": "6",
-        "special": ""
-    },
-    {
         "name": "gus.supra",
         "price": "$80",
-        "category": "",
+        "category": "name",
         "notes": "",
         "adult": "FALSE",
         "corp": "",
@@ -6347,16 +6347,6 @@
         "adult": "FALSE",
         "corp": "",
         "length": "4",
-        "special": ""
-    },
-    {
-        "name": "pge.supra",
-        "price": "$80",
-        "category": "",
-        "notes": "",
-        "adult": "FALSE",
-        "corp": "",
-        "length": "3",
         "special": ""
     },
     {
