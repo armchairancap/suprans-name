@@ -40,6 +40,16 @@
         "special": ""
     },
     {
+        "name": "1id.supra",
+        "price": "$400",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "3",
+        "special": ""
+    },
+    {
         "name": "168.supra",
         "price": "$160",
         "category": "digits",
@@ -297,6 +307,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "4",
+        "special": ""
+    },
+    {
+        "name": "abuse.supra",
+        "price": "$15",
+        "category": "fancy",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "5",
         "special": ""
     },
     {
@@ -950,6 +970,16 @@
         "special": ""
     },
     {
+        "name": "attest.supra",
+        "price": "$10",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "6",
+        "special": ""
+    },
+    {
         "name": "audit.supra",
         "price": "$50",
         "category": "business",
@@ -1137,6 +1167,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "8",
+        "special": ""
+    },
+    {
+        "name": "banzai.supra",
+        "price": "$3",
+        "category": "fancy",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "6",
         "special": ""
     },
     {
@@ -1467,6 +1507,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "7",
+        "special": ""
+    },
+    {
+        "name": "brc20.supra",
+        "price": "$50",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "5",
         "special": ""
     },
     {
@@ -1807,6 +1857,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "10",
+        "special": ""
+    },
+    {
+        "name": "chang.supra",
+        "price": "$10",
+        "category": "name",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "5",
         "special": ""
     },
     {
@@ -2241,9 +2301,9 @@
     },
     {
         "name": "copilot.supra",
-        "price": "$10",
+        "price": "$30",
         "category": "business",
-        "notes": "ai",
+        "notes": "AI",
         "adult": "FALSE",
         "corp": "",
         "length": "7",
@@ -2347,6 +2407,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "11",
+        "special": ""
+    },
+    {
+        "name": "crqc.supra",
+        "price": "$30",
+        "category": "fancy",
+        "notes": "PQC",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
         "special": ""
     },
     {
@@ -2630,6 +2700,16 @@
         "special": ""
     },
     {
+        "name": "deepfake.supra",
+        "price": "$24",
+        "category": "meme",
+        "notes": "AI",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "8",
+        "special": ""
+    },
+    {
         "name": "deeppurple.supra",
         "price": "$2",
         "category": "name",
@@ -2737,6 +2817,26 @@
         "adult": "FALSE",
         "corp": "",
         "length": "5",
+        "special": ""
+    },
+    {
+        "name": "deovindice.supra",
+        "price": "$3",
+        "category": "fancy",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "10",
+        "special": ""
+    },
+    {
+        "name": "deus.supra",
+        "price": "$30",
+        "category": "fancy",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
         "special": ""
     },
     {
@@ -3321,9 +3421,9 @@
     },
     {
         "name": "faceswap.supra",
-        "price": "$8",
+        "price": "$24",
         "category": "meme",
-        "notes": "",
+        "notes": "AI",
         "adult": "FALSE",
         "corp": "",
         "length": "8",
@@ -3580,6 +3680,16 @@
         "special": ""
     },
     {
+        "name": "fortknox.supra",
+        "price": "$10",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "8",
+        "special": ""
+    },
+    {
         "name": "francesco.supra",
         "price": "$2",
         "category": "name",
@@ -3687,6 +3797,16 @@
         "adult": "TRUE",
         "corp": "",
         "length": "4",
+        "special": ""
+    },
+    {
+        "name": "ftknox.supra",
+        "price": "$10",
+        "category": "business",
+        "notes": "see fortknox",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "6",
         "special": ""
     },
     {
@@ -4087,6 +4207,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "6",
+        "special": ""
+    },
+    {
+        "name": "harvest.supra",
+        "price": "$10",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "7",
         "special": ""
     },
     {
@@ -4760,6 +4890,16 @@
         "special": ""
     },
     {
+        "name": "json.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
         "name": "jules.supra",
         "price": "$10",
         "category": "name",
@@ -4850,6 +4990,16 @@
         "special": ""
     },
     {
+        "name": "killbill.supra",
+        "price": "$10",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "6",
+        "special": ""
+    },
+    {
         "name": "kingpin.supra",
         "price": "$3",
         "category": "fancy",
@@ -4867,6 +5017,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "5",
+        "special": ""
+    },
+    {
+        "name": "kok.supra",
+        "price": "$320",
+        "category": "meme",
+        "notes": "",
+        "adult": "TRUE",
+        "corp": "",
+        "length": "3",
         "special": ""
     },
     {
@@ -5090,16 +5250,6 @@
         "special": ""
     },
     {
-        "name": "1id.supra",
-        "price": "$400",
-        "category": "business",
-        "notes": "",
-        "adult": "FALSE",
-        "corp": "",
-        "length": "3",
-        "special": ""
-    },
-    {
         "name": "lim.supra",
         "price": "$80",
         "category": "name",
@@ -5317,6 +5467,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "8",
+        "special": ""
+    },
+    {
+        "name": "mai.supra",
+        "price": "$240",
+        "category": "name",
+        "notes": "AI",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "3",
         "special": ""
     },
     {
@@ -5610,6 +5770,16 @@
         "special": ""
     },
     {
+        "name": "mick.supra",
+        "price": "$20",
+        "category": "name",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
         "name": "microloans.supra",
         "price": "$10",
         "category": "business",
@@ -5833,6 +6003,16 @@
         "name": "mozart.supra",
         "price": "$2",
         "category": "name",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "6",
+        "special": ""
+    },
+    {
+        "name": "mullet.supra",
+        "price": "$2",
+        "category": "fanc",
         "notes": "",
         "adult": "FALSE",
         "corp": "",
@@ -6747,6 +6927,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "10",
+        "special": ""
+    },
+    {
+        "name": "provider.supra",
+        "price": "$30",
+        "category": "business",
+        "notes": "AI",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "8",
         "special": ""
     },
     {
@@ -8071,9 +8261,9 @@
     },
     {
         "name": "singular.supra",
-        "price": "$10",
+        "price": "$30",
         "category": "business",
-        "notes": "",
+        "notes": "AI",
         "adult": "FALSE",
         "corp": "",
         "length": "8",
@@ -9507,6 +9697,16 @@
         "adult": "FALSE",
         "corp": "",
         "length": "5",
+        "special": ""
+    },
+    {
+        "name": "wai.supra",
+        "price": "$1200",
+        "category": "business",
+        "notes": "AI",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "3",
         "special": ""
     },
     {
