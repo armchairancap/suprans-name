@@ -7790,6 +7790,16 @@
         "special": ""
     },
     {
+        "name": "saruman.supra",
+        "price": "$8",
+        "category": "meme",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "7",
+        "special": ""
+    },
+    {
         "name": "saturday-night-beaver.supra",
         "price": "$4",
         "category": "adult",
@@ -9760,6 +9770,16 @@
         "special": ""
     },
     {
+        "name": "wavax.supra",
+        "price": "$50",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "5",
+        "special": ""
+    },
+    {
         "name": "watermark.supra",
         "price": "$10",
         "category": "business",
@@ -9840,6 +9860,16 @@
         "special": ""
     },
     {
+        "name": "wdoge.supra",
+        "price": "$50",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "5",
+        "special": ""
+    },
+    {
         "name": "womb-rider.supra",
         "price": "$4",
         "category": "adult",
@@ -9890,6 +9920,66 @@
         "special": ""
     },
     {
+        "name": "wada.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
+        "name": "wlink.supra",
+        "price": "$50",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "5",
+        "special": ""
+    },
+    {
+        "name": "wsol.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
+        "name": "wsui.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
+        "name": "wusdc.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
+        "name": "wusdt.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
         "name": "wtf.supra",
         "price": "$320",
         "category": "meme",
@@ -9897,6 +9987,36 @@
         "adult": "FALSE",
         "corp": "",
         "length": "3",
+        "special": ""
+    },
+    {
+        "name": "wton.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
+        "name": "wtrx.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
+        "special": ""
+    },
+    {
+        "name": "wxrp.supra",
+        "price": "$100",
+        "category": "business",
+        "notes": "",
+        "adult": "FALSE",
+        "corp": "",
+        "length": "4",
         "special": ""
     },
     {
