@@ -11,7 +11,7 @@
     <meta name="description" content="SupraNS.name - pre-purchase or buy SupraNS names. Find available SupraNS names with their price, category, and other relevant information.">
     <meta name="keywords" content="SupraNS, buy SupraNS names, SupraNS names, Supra network, blockchain, crypto, StarKey, names, purchase, pre-purchase, Supra wallet, tokens, NFTs">
     <!-- DataTables CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./jquery.dataTables.min.css">
     <style>
         :root {
           --background-color: #121212;
@@ -19,6 +19,8 @@
           --table-header-bg: #1f1f1f;
           --table-row-bg: #2c2c2c;
           --table-row-hover-bg: #3a3a3a;
+          --dt-html-background: #121212;
+          --dt-html-color: #ffffff;
         } 
 
         h2.title {
@@ -26,6 +28,10 @@
         }
 
         h3.title {
+          color: orange;
+        }
+
+        h4.title {
           color: orange;
         }
 
@@ -54,6 +60,23 @@
         table.dataTable th,
         table.dataTable td {
           border-color: #444;
+        }
+        .dataTables_filter,
+        .dataTables_length {
+          background-color: orange;
+        }
+
+        a {
+          color: lightblue;
+        }
+
+        a:hover {
+          color: #ff4500; /* OrangeRed */
+          background-color: grey;
+        }
+
+        a:visited {
+          color: #555555; 
         }
       </style>
 </head>
@@ -199,7 +222,7 @@
     </div>
     
     <div class="block">
-    As mentioned above, they will be available for purchase in a future marketplace and for now only pre-payments are accepted.
+    As mentioned above these names will be available for purchase in a future marketplace and for now only pre-payments are accepted. These prices are subject to negotiation because they've been automatically generated.
     </div>
     <!-- Table -->
     <!-- data-url="https://raw.githubusercontent.com/armchairancap/suprans-name/refs/heads/master/table.json" name,price,category,notes,adult,corp,length,special -->  
@@ -239,9 +262,9 @@
       </footer>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./jquery-3.6.0.min.js"></script>
     <!-- DataTables JS -->
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="./jquery.dataTables.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', () => {
         fetch('./table.json')
