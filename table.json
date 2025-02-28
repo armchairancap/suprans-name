@@ -371,6 +371,13 @@
         "adult": false
     },
     {
+        "name": "aifi.supra",
+        "price": 300,
+        "category": "business",
+        "notes": "AI",
+        "adult": false
+    },
+    {
         "name": "aigen.supra",
         "price": 150,
         "category": "business",
@@ -2667,6 +2674,13 @@
         "adult": false
     },
     {
+        "name": "fortuna.supra",
+        "price": 30,
+        "category": "business",
+        "notes": "gaming",
+        "adult": false
+    },
+    {
         "name": "francesco.supra",
         "price": 6,
         "category": "name",
@@ -3830,6 +3844,14 @@
         "adult": false
     },
     {
+        "name": "libertarian.supra",
+        "length": 11,
+        "price": 9.0,
+        "category": "fancy",
+        "notes": "",
+        "adult": false
+    },
+    {
         "name": "licence.supra",
         "price": 30,
         "category": "business",
@@ -4005,10 +4027,24 @@
         "adult": false
     },
     {
+        "name": "mahjong.supra",
+        "price": 30,
+        "category": "business",
+        "notes": "gaming see majiang",
+        "adult": false
+    },
+    {
         "name": "mai.supra",
         "price": 120,
         "category": "name",
         "notes": "AI",
+        "adult": false
+    },
+    {
+        "name": "majiang.supra",
+        "price": 30,
+        "category": "business",
+        "notes": "gaming",
         "adult": false
     },
     {
@@ -4587,6 +4623,14 @@
         "adult": false
     },
     {
+        "name": "nostradamus.supra",
+        "length": 11,
+        "price": 9.0,
+        "category": "fancy",
+        "notes": "",
+        "adult": false
+    },
+    {
         "name": "note.supra",
         "price": 300,
         "category": "business",
@@ -5042,6 +5086,13 @@
         "adult": false
     },
     {
+        "name": "probro.supra",
+        "price": 9.0,
+        "category": "fancy",
+        "notes": "",
+        "adult": false
+    },
+    {
         "name": "process.supra",
         "price": 30,
         "category": "business",
@@ -5343,6 +5394,20 @@
         "adult": false
     },
     {
+        "name": "refill.supra",
+        "price": 30,
+        "category": "business",
+        "notes": "",
+        "adult": false
+    },
+    {
+        "name": "reformuk.supra",
+        "price": 30,
+        "category": "business",
+        "notes": "",
+        "adult": false
+    },
+    {
         "name": "registrar.supra",
         "price": 30,
         "category": "business",
@@ -5354,6 +5419,13 @@
         "price": 6,
         "category": "sub",
         "notes": "see registrar",
+        "adult": false
+    },
+    {
+        "name": "reload.supra",
+        "price": 30,
+        "category": "business",
+        "notes": "see refill",
         "adult": false
     },
     {
@@ -5542,6 +5614,13 @@
         "name": "rosemary.supra",
         "price": 6,
         "category": "name",
+        "notes": "",
+        "adult": false
+    },
+    {
+        "name": "rothbard.supra",
+        "price": 9.0,
+        "category": "fancy",
         "notes": "",
         "adult": false
     },
@@ -6270,7 +6349,7 @@
         "name": "storage.supra",
         "price": 30,
         "category": "business",
-        "notes": "see stor",
+        "notes": "subdomains and see stor",
         "adult": false
     },
     {
