@@ -960,6 +960,14 @@
         "adult": false
     },
     {
+        "category": "business",
+        "length": 4,
+        "name": "ball.supra",
+        "price": 300,
+        "notes": "gaming",
+        "adult": false
+    },
+    {
         "category": "name",
         "length": 4,
         "name": "bane.supra",
@@ -7989,6 +7997,14 @@
         "name": "uscss.supra",
         "price": 150,
         "notes": "subdomains",
+        "adult": false
+    },
+    {
+        "category": "business",
+        "length": 4,
+        "name": "usds.supra",
+        "price": 300,
+        "notes": "see susd and DEX",
         "adult": false
     },
     {
