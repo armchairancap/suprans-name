@@ -8180,7 +8180,7 @@
         "length": 4,
         "name": "wada.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8324,7 +8324,7 @@
         "length": 5,
         "name": "wlink.supra",
         "price": 150,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8372,7 +8372,7 @@
         "length": 4,
         "name": "wsol.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8380,7 +8380,7 @@
         "length": 4,
         "name": "wsui.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8396,7 +8396,7 @@
         "length": 4,
         "name": "wton.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8404,7 +8404,7 @@
         "length": 4,
         "name": "wtrx.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8418,9 +8418,17 @@
     {
         "category": "business",
         "length": 4,
+        "name": "wusd.supra",
+        "price": 300,
+        "notes": "DEX",
+        "adult": false
+    },
+    {
+        "category": "business",
+        "length": 4,
         "name": "wusdc.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8428,7 +8436,7 @@
         "length": 4,
         "name": "wusdt.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
@@ -8436,7 +8444,7 @@
         "length": 4,
         "name": "wxrp.supra",
         "price": 300,
-        "notes": "",
+        "notes": "DEX",
         "adult": false
     },
     {
