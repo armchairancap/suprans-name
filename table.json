@@ -425,6 +425,14 @@
     },
     {
         "category": "business",
+        "length": 9,
+        "name": "aifactory.supra",
+        "price": 30,
+        "notes": "AI",
+        "adult": false
+    },
+    {
+        "category": "business",
         "length": 4,
         "name": "aifi.supra",
         "price": 300,
@@ -1204,6 +1212,14 @@
         "length": 3,
         "name": "boj.supra",
         "price": 600,
+        "notes": "",
+        "adult": false
+    },
+    {
+        "category": "business",
+        "length": 7,
+        "name": "bonanza.supra",
+        "price": 30,
         "notes": "",
         "adult": false
     },
@@ -2644,6 +2660,14 @@
         "length": 3,
         "name": "eke.supra",
         "price": 600,
+        "notes": "",
+        "adult": false
+    },
+    {
+        "category": "business",
+        "length": 8,
+        "name": "eldorado.supra",
+        "price": 30,
         "notes": "",
         "adult": false
     },
