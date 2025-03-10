@@ -3,13 +3,15 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SupraNS.name - pre-purchase or buy SupraNS names on the Supra network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
     <link rel="stylesheet" href="./bulma.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta name="description" content="SupraNS.name - pre-purchase or buy SupraNS names. Find available SupraNS names with their price, category, and other relevant information.">
-    <meta name="keywords" content="SupraNS, buy SupraNS names, SupraNS names, Supra network, blockchain, crypto, StarKey, names, purchase, pre-purchase, Supra wallet, tokens, NFTs">
+
+    <title>SupraNS.name - buy SupraNS (SNS) names for the Supra network and StarKey wallet</title>
+    <meta name="description" content="SupraNS.name - buy SupraNS (SNS) name for your StarKey wallet! Search available names by name, price, category, and other info.">
+    <meta name="keywords" content="SupraNS, buy, sns, purchase, SupraNS name, SNS, Supra network, blockchain, crypto, StarKey, token, name, wallet, token, NFTs, wallet, L1, name service, DNS, 0x4">
+    
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="./jquery.dataTables.min.css">
     <style>
@@ -95,7 +97,7 @@
                 <a class="navbar-item" href="#wtf-is-supraNS-name">About</a>
                 <a class="navbar-item" href="#buy">Buy</a>
                 <a class="navbar-item" href="#names"><strong>Names</strong></a>
-                <a class="navbar-item" href="#notes">Notes</a>
+                <a class="navbar-item" href="#usecases">Use</a>
                 <a class="navbar-item" href="#contact">Contact</a>
             </div>
         </div>
@@ -105,18 +107,18 @@
     <div class="container">
 
     <div class="block">
-    <h2 class="title " id="wtf-is-supraNS-name">About SupraNS.name</h2>
+    <h1 class="title " id="wtf-is-supraNS-name">Buy SupraNS names for StarKey and other Supra Network dApps </h2>
     </div>
 
     <div class="block">
-    SupraNS.name is a site with a list of SupraNS names that are available for purchase.
+    SupraNS.name is a site with a list of SupraNS names that are available for purchase. SupraNS names will be used in Supra Starkey wallet and other applications to identify resources on the Supra network.
     </div>
     <div class="block">
     The list is maintained by the owner of the names and is updated regularly. The names are listed with their price, category, and other relevant information.
     </div>
     
     <div class="block">    
-    <h4 class="title" id="wtf-is-supraNS">WTF is SupraNS?</h4>
+    <h4 class="title" id="wtf-is-supraNS">WTF is the Supra Name Service (SNS) anyway?</h4>
     </div>
 
     <div class="block">
@@ -129,16 +131,62 @@
     </div>
     <div class="content">
     <ul>
-        <li>Primary function of SupraNS records is to identify Supra wallet addresses so that you can receive tokens or NFTs at <code>toshua.supra</code> instead of texting the sender and asking them to use <code>0xf0d0d7b6bdb66ca463269d0cd8e9abd6bc0c4d869f2a971769b3b81ca614d71c</code>.</li>
-        <li>SupraNS names will also be used to identify other resources on the Supra network, on-chain reputation and more</li>
+        <li>The primary function of SupraNS records is to identify Supra wallet addresses so that you can receive tokens or NFTs at (for example) <code>toshua.supra</code> instead of texting the sender and asking them to use <code>0xf0d0d7b6bdb66ca463269d0cd8e9abd6bc0c4d869f2a971769b3b81ca614d71c</code>.</li>        
     </ul>
     
+  <div class="block"></div>
+    <img src="./images/starkey_wallet_suprans.png" alt="StarKey Wallet SupraNS">
+  </div>
+
+
     <div class="block">
-    The documentation with additional use cases can be found <a href="https://docs.suprans.id/" target="_blank">here</a>.</div>
+      Find several other examples <a href="#usecases">at the bottom of this page</a>. The official SupraNS (SNS) documentation with additional use cases can be found <a href="https://docs.suprans.id/" target="_blank">here</a>.
+    </div>
 
     <div class="block">
     <button class="button" id="totop"><a href="#top">Back to top</a></button>   
     </div>
+
+
+    <div class="block">
+      <h2 class="title" id="names">SNS names</h2>
+      </div>
+  
+      <div class="block">This is most of what's currently available. In some special cases names will be made available to communities or other entities that should own them.</div>
+      
+      <div class="block">
+      These prices are just for reference purposes and almost every entry will be either adjusted (for fixed price selliong) or sold off in an auction.
+      </div>
+          
+      <div class="block">
+      For now, only pre-payments in `$dexUSDC` are accepted and subject to price negotiation because most of the prices have been automatically generated.
+      </div>
+      <!-- Table -->
+      <!-- data-url="https://raw.githubusercontent.com/armchairancap/suprans-name/refs/heads/master/table.json" name,price,category,notes,adult,corp,length,sold -->  
+      
+      <div class="block">
+      <table id="namesTable">
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th>Notes</th>
+                  <th>Adult</th>
+                  <th>Length</th> 
+                  <th>Sold</th>
+              </tr>
+          </thead>
+          <tbody>
+              <!-- Table rows will be inserted here by JavaScript -->
+          </tbody>    
+      </table>
+      </div>
+  
+      <div class="block">
+      <button class="button" id="totop"><a href="#top">Back to top</a></button>
+      </div>
+
 
     <div class="block">
     <h2 class="title" id="buy">How to buy</h2>
@@ -146,7 +194,7 @@
         
     <div class="block">You <b>can register new names</b> and you can can <b>pre-pay</b> for one of these and have the ownership of one of these transferred to your wallet later.</div>
 
-    <div class="block">As of now (February 2025) there's no way to transfer ownership of a SupraNS registration from a StarKey wallet to another.
+    <div class="block">As of now (March 7, 2025) there's no way to transfer ownership of a SupraNS registration from a StarKey wallet to another.
         When that and a marketplace become available, these names will be listed at prices I intend to sell them for.</div>
     <div class="block">If you'd like to pay now and get the name when transfers becomes possible, reach out and escrow can be arranged. Here's how:</div>
     
@@ -162,13 +210,13 @@
     <div class="block">
     You can swap Supra for dexUSDC <a href="https://app.dexlyn.com/">here</a>. 
     </div>
-    <div class="block danger">Do NOT send funds from a CEX wallet! Send them from StarKey address you control because that's the address your name will be transferred to.</div>
+    <div class="block danger">Do NOT send funds from a CEX wallet! Send them from a StarKey address you control because that's the address your SupraNS name will be transferred to.</div>
     
     <div class="block">Why pre-pay?</div>
     <div class="content">
     <ul>
         <li>It's a way to reserve your name before a marketplace becomes available</li>
-        <li>It's a way to get a better price</li>
+        <li>It's a way to get a better price than you would in an auction</li>
     </ul>
     </div>
 
@@ -177,33 +225,30 @@
     </div>
 
     <div class="block">
-    <h2 class="title" id="notes">Notes</h2></div>
-    
-    <div class="block">This is most of what's currently available. In some special cases names will be made available to communities or other entities that should use them. Please take note of the following:</div>
-    
-    <div class="block">
-    These prices are just for reference purposes and almost every entry will be either adjusted (for fixed price sale) or sold in an auction (with some low starting price).
+      <h2 class="title" id="usecases">Use cases</h2>
     </div>
+
     <div class="block">
-    Categories and notes:</div>
+      Read the official Supra Name Service documentation to learn how to use it, but here are some examples:
+    </div>
     <div class="content">
-    <ul>
-        <li>AI - names that are suitable for AI</li>
-        <li>Gaming - names that are suitable for gaming</li>
-        <li>Meme - names that are suitable for memes</li>
-        <li>Business - names that are suitable for on-chain businesses (including freelancers)</li>
-        <li>Institutional - names that are suitable for institutions</li>
-        <li>Adult - names that are not suitable for children. (TRUE Adult means the name may not be explicit, but it's likely that it would be used for its implicit meaning)</li>
-        <li>Digits - names that are made of digits</li>
-        <li>Geo - names that are suitable for geo / location use</li>
-        <li>Fancy - general purpose names, basically "anything else"</li>
-        <li>Special - these will not be sold to random people (and, if you don't see any in the table at the bottom, that means they haven't even been listed)</li>
-    </ul>
-    </div>
-    
+      <ul>
+        <li>Receive payments at <code>yourname.supra</code> instead of <code>0xf0d0d7b6bdb66ca463269d0cd8e9abd6bc0c4d869f2a971769b3b81ca614d71c</code>. Share your wallet address verbally or in a chat app without looking it up.</li>
+        <li>Use <code>game.yourname.supra</code> as a username in a Supra dApp.</li>
+        <li>Use <code>nft.yourname.supra</code> for NFTs and <code>tips.yourname.supra</code> for tips (<code>yourname.supra</code> and <code>tips.yourname.supra</code> can optionally point to the same "default" address).</li>
+        <li>Use <code>yourname.supra</code> for one of your StarKey wallet addresses meant for personal use, and <code>acme.supra</code> for another from which you conduct freelance business. Both SNS names may be owned by one address. One advantage of using one wallet to manage is a single place to renew and manage SNS, as well as separation of concerns (e.g. a third address just for SNS management).</li>
+        <li>When SNS develops some of the features ENS and Solana NS have today, certain keys have non-chain values such as public IP addresses and then <code>blog.yourname.supra</code> could be set to resolve to your Web2 blog.</li>
+      </ul>
+
     <div class="block">
-    <button class="button" id="totop"><a href="#top">Back to top</a></button>
+      Currently (mid March 2025) you can pick one of your names to be the primary name (in case an address owns more than one), you may direct a name to another address, and you may create subdomains.<br><br>
+      <img src="./images/suprans_use_cases.png" alt="SupraNS Use Cases">
+      </div>
+
+    <div class="block">
+      <button class="button" id="totop"><a href="#top">Back to top</a></button>
     </div>
+
 
     <div class="block">
       <h2 class="title" id="contact">Contact</h2>
@@ -217,78 +262,52 @@
     <button class="button" id="totop"><a href="#top">Back to top</a></button>
     </div>
 
-    <div class="block">
-    <h2 class="title" id="names">Names</h2>
-    </div>
-    
-    <div class="block">
-    As mentioned above these names will be available for purchase in a future marketplace and for now only pre-payments are accepted. These prices are subject to negotiation because they've been automatically generated.
-    </div>
-    <!-- Table -->
-    <!-- data-url="https://raw.githubusercontent.com/armchairancap/suprans-name/refs/heads/master/table.json" name,price,category,notes,adult,corp,length,special -->  
-    
-    <div class="block">
-    <table id="namesTable">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Price</th>
-                <th>Category</th>
-                <th>Notes</th>
-                <th>Adult</th>
-                <th>Length</th> 
-                <th>Special</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Table rows will be inserted here by JavaScript -->
-        </tbody>    
-    </table>
-    </div>
-
-    <div class="block">
-    <button class="button" id="totop"><a href="#top">Back to top</a></button>
-    </div>
-
     </div>
     </section>
   
     <footer class="footer">
         <div class="content has-text-centered">
-          <p>
-            <strong>SupraNS</strong><small>.name</small> by <a href="https://armchairancap.github.io">ArmchairAncap</a>.
-            The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0//">CC BY NC SA 4.0</a>.</p>
+            <strong>SupraNS</strong><small>.name</small> by <a href="https://armchairancap.github.io">ArmchairAncap</a>.<br>
+            Supra wallet address: <code>0x56e821544d782ad70a775a1de93c82da8d3a7332414a47fa0e856b852e242c85</code><br>
+            The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0//">CC BY NC SA 4.0</a>.
         </div>
       </footer>
 
     <!-- jQuery -->
-    <script src="./jquery-3.6.0.min.js" integrity="vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.0.min.js" integrity="vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
     <!-- DataTables JS -->
-    <script src="./jquery.dataTables.min.js" integrity="ficRBwtap/VLzILv81vIvgp30PoJYnlCm96tPpNYHXAf+h9SIThOZxxIzRUzbpAh" crossorigin="anonymous"></script>
+    <script src="./js/jquery.dataTables.min.js" integrity="ficRBwtap/VLzILv81vIvgp30PoJYnlCm96tPpNYHXAf+h9SIThOZxxIzRUzbpAh" crossorigin="anonymous"></script>
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        fetch('./table.json')
-          .then(response => response.json())
-          .then(data => {
-            const tableBody = document.querySelector('#namesTable tbody');
-            data.forEach(item => {
-              const row = document.createElement('tr');
-              row.innerHTML = `
-                <td>${item.name}</td>
-                <td>${item.price}</td>
-                <td>${item.category}</td>
-                <td>${item.notes}</td>
-                <td>${item.adult}</td>
-                <td>${item.length}</td>
-                <td>${item.special}</td>
-              `;
-              tableBody.appendChild(row);
-            });
-            // Initialize DataTables
-            $('#namesTable').DataTable();
-          })
-          .catch(error => console.error('Error loading JSON data:', error));
+      fetch('./table.json.zip')
+        .then(response => response.arrayBuffer())
+        .then(data => {
+        const zip = new JSZip();
+        return zip.loadAsync(data);
+        })
+        .then(zip => zip.file('table.json').async('string'))
+        .then(json => JSON.parse(json))
+        .then(data => {
+        const tableBody = document.querySelector('#namesTable tbody');
+        data.forEach(item => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+          <td>${item.name}</td>
+          <td>${item.price}</td>
+          <td>${item.category}</td>
+          <td>${item.notes}</td>
+          <td>${item.adult}</td>
+          <td>${item.length}</td>
+          <td>${item.sold}</td>
+          `;
+          tableBody.appendChild(row);
+        });
+        // Initialize DataTables
+        $('#namesTable').DataTable();
+        })
+        .catch(error => console.error('Error loading JSON data:', error));
       });
-    </script> 
+    </script>
+    <script src="./js/jszip.min.js" integrity="+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG" crossorigin="anonymous"></script>
     </body>
 </html>
